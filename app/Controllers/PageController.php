@@ -7,7 +7,7 @@ use App\Models\News;
 
 class PageController extends Controller
 {
-    public function index($pageNumber): void
+    public function index($pageNumber = 1): void
     {
         $news = new News();
 

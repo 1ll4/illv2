@@ -7,7 +7,7 @@ use App\Models\News;
 
 class NewsController extends Controller
 {
-    public function index($newsId): void
+    public function index($newsId = 1): void
     {
         $news = new News();
         $newsData = $news->getById($newsId);

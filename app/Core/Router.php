@@ -19,7 +19,6 @@ class Router
             return;
         }
         [$controller, $method] = explode('@', $this->routes[$request['path']]);
-        require_once "../app/Controllers/$controller.php";
         $controller = "App\\Controllers\\{$controller}";
 
         $controller = new $controller();
