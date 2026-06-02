@@ -1,0 +1,16 @@
+{
+    "name": "m3lan4holy/ill",
+    "autoload": {
+        "psr-4": {
+            "M3lan4holy\\Ill\\": "src/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roman",
+            "email": "roma.koldashev@bk.ru"
+        }
+    ],
+    "require": {}
+}
