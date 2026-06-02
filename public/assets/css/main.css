@@ -146,13 +146,13 @@ footer > div{
     font-family: Open Sans, serif;
     font-weight: 400;
     font-size: 20px;
-    border-top: 1px #841844 solid;
+    border-top: 1px #6C6E7B solid;
 }
 
 /*
 */
 hr{
-    border: 1px #841844 solid;
+    border: 1px #6C6E7B solid;
 }
 .news_main_text{
     display: flex;
